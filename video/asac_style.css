@@ -1,0 +1,38 @@
+*{margin: 0;padding: 0;}
+body {
+    background: url(../video/video_bg.jpg) no-repeat top;
+}
+iframe{
+    margin: auto;
+    display: block;
+    padding-top: 220px;
+}
+a{ 
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+/* 버튼 */
+ul{list-style:none; 
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    text-align:center;}
+    ul li{
+        margin: 10px;
+    }
+    ul li a{
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    .btn_1 li a{
+        background: #4b5f56;
+        color:#fff;
+    }
+    .btn_2 li a{
+        background: #f26c63;
+        color:#fff;
+    }
