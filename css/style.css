@@ -1,16 +1,29 @@
 @font-face {
-  font-family: 'GmarketSansMedium';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MapoFlowerIsland';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 body {
-  font-family: 'GmarketSansMedium';
+  font-family: 'S-CoreDream-3Light';
   color: #000;
   font-size: 16px;
   line-height: 30px;
   font-weight: 300;
   position: relative;
+}
+.website a{
+  color: #0066ff;
+  font-family: 'S-CoreDream-3Light';
+}
+.btn .btn-outline-pill .btn-custom-light{
+  font-family: 'S-CoreDream-3Light';
 }
 
 body:before {
@@ -27,6 +40,12 @@ body:before {
   -o-transition: .3s all ease;
   transition: .3s all ease;
   z-index: 8;
+}
+.reveal-content{
+  font-family: 'MapoFlowerIsland';
+  letter-spacing: 4px;
+  font-weight: 200;
+  color: #222
 }
 
 body.offcanvas {
@@ -115,6 +134,10 @@ a, a:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+.font_weight{
+  font-weight:800;
+  color: #0066ff;
+}
 
 .btn.btn-outline-pill.btn-custom-light {
   color: #000;
@@ -122,6 +145,7 @@ a, a:hover {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
+  font-family: 'S-CoreDream-3Light';
 }
 
 .btn.btn-outline-pill.btn-custom-light:hover, .btn.btn-outline-pill.btn-custom-light:active, .btn.btn-outline-pill.btn-custom-light:focus {
@@ -208,7 +232,7 @@ a, a:hover {
 }
 
 .unslate_co--site-nav .unslate_co--site-logo span {
-  color: #D63447;
+  color: #0066ff;
 }
 
 .unslate_co--site-nav .site-nav-ul, .unslate_co--site-nav .site-nav-ul-none-onepage {
@@ -1156,6 +1180,7 @@ a, a:hover {
 
 .unslate_co--section {
   padding: 3.5rem 0;
+  background: url(../images/bg_img.jpg)no-repeat 50% 0 ;
 }
 
 @media (max-width: 767.98px) {
@@ -2171,10 +2196,13 @@ span.error {
   font-size: 25px;
   padding-bottom: 10px;
   font-weight: 900;
+  font-family: 'S-CoreDream-3Light';
+  letter-spacing: 1px;
 }
 .portfolio-text h3{
   font-size: 18px;
   padding-bottom: 10px;
+  font-family: 'S-CoreDream-3Light';
 }
 .portfolio-text .website{
   padding: 10px 0;
