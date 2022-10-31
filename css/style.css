@@ -17,6 +17,7 @@ body {
   line-height: 30px;
   font-weight: 300;
   position: relative;
+  background: url(../images/bg_img.jpg)no-repeat 50% 0;
 }
 .website a{
   color: #0066ff;
@@ -1180,7 +1181,6 @@ a, a:hover {
 
 .unslate_co--section {
   padding: 3.5rem 0;
-  background: url(../images/bg_img.jpg)no-repeat 50% 0 ;
 }
 
 @media (max-width: 767.98px) {
@@ -2234,4 +2234,10 @@ span.error {
   .portfolio-text{
     position: static;
   }
+}
+
+@media (max-width: 374px){
+	.cover-v1 .heading {
+    		font-size: 2.7rem;
+	}
 }
